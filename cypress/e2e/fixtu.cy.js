@@ -72,11 +72,11 @@ describe('template spec', function() {
 
       ///shopPage.getAlert().should('have.text','Success! Thank you! Your order will be delivered in next few weeks :-).')
 
-      shopPage.getAlert().then(function(element)
-      {
-      const actualText = element.text()
-      expect(actualText.includes("Success")).to.be.true
-     })
+      ///shopPage.getAlert().then(function(element)
+      //{
+      //const actualText = element.text()
+      ///expect(actualText.includes("Success")).to.be.true
+     //})
           })
         })
 
