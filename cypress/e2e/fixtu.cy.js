@@ -31,7 +31,7 @@ describe('template spec', function() {
       const shopPage =new ShopPage()
     
       shopPage.getShopButton().click()
-
+      /// ytrv
         this.data.productName.forEach(function(element) {
                   cy.selectProduct(element)
       });
